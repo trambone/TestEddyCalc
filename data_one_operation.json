@@ -5,9 +5,9 @@
             "operand2_ele": "addition_number_2",
             "result": "addition_sum",
             "operation_ele": "addition_action_1",
-            "operand1_val": 10,
-            "operand2_val": 7,
-            "expected_sol": 17
+            "operand1_val": 1,
+            "operand2_val": 1,
+            "expected_sol": 2
         }
     },
       "subtraction_happy_path" : {
@@ -16,12 +16,12 @@
             "operand2_ele": "subtraction_number_2",
             "result": "subtraction_difference",
             "operation_ele": "subtraction_action_1",
-            "operand1_val": 10,
-            "operand2_val": 10,
+            "operand1_val": 1,
+            "operand2_val": 1,
             "expected_sol": 0
         }
     },
-       "addition_2" : {
+       "addition_operand1_gt_operand2" : {
         "test_data" : {
             "operand1_ele": "addition_number_1",
             "operand2_ele": "addition_number_2",
@@ -32,15 +32,15 @@
             "expected_sol": 11
         }
     },
-      "subtraction_2" : {
+      "subtraction_operand1_gt_operand2" : {
         "test_data" : {
             "operand1_ele": "subtraction_number_1",
             "operand2_ele": "subtraction_number_2",
             "result": "subtraction_difference",
             "operation_ele": "subtraction_action_1",
-            "operand1_val": 1,
-            "operand2_val": 1,
-            "expected_sol": 0
+            "operand1_val": 7,
+            "operand2_val": 4,
+            "expected_sol": 3
         }
     }
 }
