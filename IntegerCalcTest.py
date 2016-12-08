@@ -14,21 +14,22 @@ class TestWrapper(unittest.TestCase):
         self.driver.quit()
 
     @file_data('data/one_operation.json')
+    @file_data('data/tmp_working.json')
     def test_one_operation(self, test_data):
 
         print "test_data = {0}".format(test_data)
 
         self.arithmetic(self.driver, test_data)
 
-    @file_data('data/data_two_operations.json')
-    def test_two_operations(self, test_data):
-        driver = webdriver.Chrome()
-        driver.get('http://www.eddyjones.com/test_stuff/advanced.html')
+    # @file_data('data/data_two_operations.json')
+    # def test_two_operations(self, test_data):
+    #     driver = webdriver.Chrome()
+    #     driver.get('http://www.eddyjones.com/test_stuff/advanced.html')
 
-        print "test_data = {0}".format(test_data)
+        # print "test_data = {0}".format(test_data)
 
-        self.arithmetic(driver, test_data['operation1'])
-        self.arithmetic(driver, test_data['operation2'])
+        # self.arithmetic(driver, test_data['operation1'])
+        # self.arithmetic(driver, test_data['operation2'])
 
     #1) input values then delete values
     #2) input values then delete values then perform arithmetic on addition only

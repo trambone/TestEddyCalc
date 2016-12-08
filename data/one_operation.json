@@ -32,7 +32,7 @@
             "expected_sol": 11
         }
     },
-      "addition_boundary_01" : {
+      "subtraction_boundary_01" : {
         "test_data" : {
             "operand1_ele": "subtraction_number_1",
             "operand2_ele": "subtraction_number_2",
@@ -43,7 +43,7 @@
             "expected_sol": 0
         }
     },
-        "addition_boundary_02" : {
+        "subtraction_boundary_02" : {
         "test_data" : {
             "operand1_ele": "subtraction_number_1",
             "operand2_ele": "subtraction_number_2",
@@ -54,7 +54,7 @@
             "expected_sol": 1
         }
     },
-        "addition_boundary_03" : {
+        "subtraction_boundary_03" : {
         "test_data" : {
             "operand1_ele": "subtraction_number_1",
             "operand2_ele": "subtraction_number_2",
@@ -65,7 +65,7 @@
             "expected_sol": 100
         }
     },
-        "addition_boundary_04" : {
+        "subtraction_boundary_04" : {
         "test_data" : {
             "operand1_ele": "subtraction_number_1",
             "operand2_ele": "subtraction_number_2",
@@ -76,7 +76,7 @@
             "expected_sol": 1000
         }
     },
-        "addition_boundary_05" : {
+        "subtraction_boundary_05" : {
         "test_data" : {
             "operand1_ele": "subtraction_number_1",
             "operand2_ele": "subtraction_number_2",
@@ -87,7 +87,7 @@
             "expected_sol": 10000
         }
     },
-        "addition_boundary_06" : {
+        "subtraction_boundary_06" : {
         "test_data" : {
             "operand1_ele": "subtraction_number_1",
             "operand2_ele": "subtraction_number_2",
@@ -98,7 +98,7 @@
             "expected_sol": 100000
         }
     },
-        "addition_boundary_07" : {
+        "subtraction_boundary_07" : {
         "test_data" : {
             "operand1_ele": "subtraction_number_1",
             "operand2_ele": "subtraction_number_2",
