@@ -5,18 +5,22 @@ from selenium import webdriver
 # Wrapper
 @ddt
 class TestWrapper(unittest.TestCase):
-    @file_data('data_one_operation.json')
+    def setUp(self):
+        self.driver = webdriver.Chrome()
+        self.driver.get('http://www.eddyjones.com/test_stuff/advanced.html')
+
+    def tearDown(self):
+        self.driver.close()
+        self.driver.quit()
+
+    @file_data('data/one_operation.json')
     def test_one_operation(self, test_data):
-        driver = webdriver.Chrome()
-        driver.get('http://www.eddyjones.com/test_stuff/advanced.html')
 
         print "test_data = {0}".format(test_data)
 
-        self.arithmetic(driver, test_data)
+        self.arithmetic(self.driver, test_data)
 
-        driver.close()
-
-    @file_data('data_two_operations.json')
+    @file_data('data/data_two_operations.json')
     def test_two_operations(self, test_data):
         driver = webdriver.Chrome()
         driver.get('http://www.eddyjones.com/test_stuff/advanced.html')
@@ -26,7 +30,16 @@ class TestWrapper(unittest.TestCase):
         self.arithmetic(driver, test_data['operation1'])
         self.arithmetic(driver, test_data['operation2'])
 
-        driver.close()
+    #1) input values then delete values
+    #2) input values then delete values then perform arithmetic on addition only
+    #3) input values then delete values then perform arithmetic on subtraction only
+    #a) input values then perform arithmetic on addition only then refresh and repeat
+    #b) input values then perform arithmetic on subtraction only then refresh and repeat
+    #c) as point a) and b) but with test_two_operations
+    #4) input negative test case values: alpha, non-numeric, non-int
+    #5) point 1) then input values into the result filed then perform addition
+    #6) point 1) then input values into the result filed then perform subtraction
+    #7) 64bit boundary test with 9223372036854775807
 
     def arithmetic(self, driver, test_data):
         '''
