@@ -1,123 +1,354 @@
 {
-    "addition_happy_path" : {
-        "test_data" : {
-            "operand1_ele": "addition_number_1",
-            "operand2_ele": "addition_number_2",
-            "result": "addition_sum",
-            "operation_ele": "addition_action_1",
-            "operand1_val": 1,
-            "operand2_val": 1,
-            "expected_sol": 2
-        }
-    },
-      "subtraction_happy_path" : {
-        "test_data" : {
-            "operand1_ele": "subtraction_number_1",
-            "operand2_ele": "subtraction_number_2",
-            "result": "subtraction_difference",
-            "operation_ele": "subtraction_action_1",
-            "operand1_val": 1,
-            "operand2_val": 1,
-            "expected_sol": 0
-        }
-    },
-       "addition_operand1_gt_operand2" : {
-        "test_data" : {
-            "operand1_ele": "addition_number_1",
-            "operand2_ele": "addition_number_2",
-            "result": "addition_sum",
-            "operation_ele": "addition_action_1",
-            "operand1_val": 7,
-            "operand2_val": 4,
-            "expected_sol": 11
-        }
-    },
-      "subtraction_boundary_01" : {
-        "test_data" : {
-            "operand1_ele": "subtraction_number_1",
-            "operand2_ele": "subtraction_number_2",
-            "result": "subtraction_difference",
-            "operation_ele": "subtraction_action_1",
-            "operand1_val": 9223372036854775807,
-            "operand2_val": 9223372036854775807,
-            "expected_sol": 0
-        }
-    },
-        "subtraction_boundary_02" : {
-        "test_data" : {
-            "operand1_ele": "subtraction_number_1",
-            "operand2_ele": "subtraction_number_2",
-            "result": "subtraction_difference",
-            "operation_ele": "subtraction_action_1",
-            "operand1_val": 9223372036854775807,
-            "operand2_val": 9223372036854775806,
-            "expected_sol": 1
-        }
-    },
-        "subtraction_boundary_03" : {
-        "test_data" : {
-            "operand1_ele": "subtraction_number_1",
-            "operand2_ele": "subtraction_number_2",
-            "result": "subtraction_difference",
-            "operation_ele": "subtraction_action_1",
-            "operand1_val": 9223372036854775807,
-            "operand2_val": 9223372036854775707,
-            "expected_sol": 100
-        }
-    },
-        "subtraction_boundary_04" : {
-        "test_data" : {
-            "operand1_ele": "subtraction_number_1",
-            "operand2_ele": "subtraction_number_2",
-            "result": "subtraction_difference",
-            "operation_ele": "subtraction_action_1",
-            "operand1_val": 9223372036854775807,
-            "operand2_val": 9223372036854774807,
-            "expected_sol": 1000
-        }
-    },
-        "subtraction_boundary_05" : {
-        "test_data" : {
-            "operand1_ele": "subtraction_number_1",
-            "operand2_ele": "subtraction_number_2",
-            "result": "subtraction_difference",
-            "operation_ele": "subtraction_action_1",
-            "operand1_val": 9223372036854775807,
-            "operand2_val": 9223372036854765807,
-            "expected_sol": 10000
-        }
-    },
-        "subtraction_boundary_06" : {
-        "test_data" : {
-            "operand1_ele": "subtraction_number_1",
-            "operand2_ele": "subtraction_number_2",
-            "result": "subtraction_difference",
-            "operation_ele": "subtraction_action_1",
-            "operand1_val": 9223372036854775807,
-            "operand2_val": 9223372036854675807,
-            "expected_sol": 100000
-        }
-    },
-        "subtraction_boundary_07" : {
-        "test_data" : {
-            "operand1_ele": "subtraction_number_1",
-            "operand2_ele": "subtraction_number_2",
-            "result": "subtraction_difference",
-            "operation_ele": "subtraction_action_1",
-            "operand1_val": 9223372036854775807,
-            "operand2_val": 9223372036853775807,
-            "expected_sol": 1000000
-        }
-    },
-      "subtraction_operand1_gt_operand2" : {
-        "test_data" : {
-            "operand1_ele": "subtraction_number_1",
-            "operand2_ele": "subtraction_number_2",
-            "result": "subtraction_difference",
-            "operation_ele": "subtraction_action_1",
-            "operand1_val": 7,
-            "operand2_val": 4,
-            "expected_sol": 3
-        }
+  "happy_path_addition": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 1,
+      "operand2_val": 1,
+      "expected_sol": 2
     }
+  },
+  "happy_path_subtraction": {
+    "test_data": {
+      "operand1_ele": "subtraction_number_1",
+      "operand2_ele": "subtraction_number_2",
+      "result": "subtraction_difference",
+      "operation_ele": "subtraction_action_1",
+      "operand1_val": 1,
+      "operand2_val": 1,
+      "expected_sol": 0
+    }
+  },
+  "addition_operand1_gt_operand2": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 17,
+      "operand2_val": 4,
+      "expected_sol": 21
+    }
+  },
+  "addition_operand2_gt_operand1": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 4,
+      "operand2_val": 17,
+      "expected_sol": 21
+    }
+  },
+  "addition_boundary_01": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 9223372036854775807,
+      "operand2_val": 0,
+      "expected_sol": 9223372036854775807
+    }
+  },
+  "addition_boundary_02": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 9223372036854775806,
+      "operand2_val": 1,
+      "expected_sol": 9223372036854775807
+    }
+  },
+  "addition_boundary_03": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 9223372036854775707,
+      "operand2_val": 100,
+      "expected_sol": 9223372036854775807
+    }
+  },
+  "addition_boundary_04": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 9223372036854774807,
+      "operand2_val": 1000,
+      "expected_sol": 9223372036854775807
+    }
+  },
+  "addition_boundary_05": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 9223372036854765807,
+      "operand2_val": 10000,
+      "expected_sol": 9223372036854775807
+    }
+  },
+  "addition_boundary_06": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 9223372036854675807,
+      "operand2_val": 100000,
+      "expected_sol": 9223372036854775807
+    }
+  },
+  "addition_boundary_07": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 9223372036853775807,
+      "operand2_val": 1000000,
+      "expected_sol": 9223372036854775807
+    }
+  },
+  "subtraction_operand1_gt_operand2": {
+    "test_data": {
+      "operand1_ele": "subtraction_number_1",
+      "operand2_ele": "subtraction_number_2",
+      "result": "subtraction_difference",
+      "operation_ele": "subtraction_action_1",
+      "operand1_val": 103,
+      "operand2_val": 36,
+      "expected_sol": 67
+    }
+  },
+  "subtraction_operand2_gt_operand1": {
+    "test_data": {
+      "operand1_ele": "subtraction_number_1",
+      "operand2_ele": "subtraction_number_2",
+      "result": "subtraction_difference",
+      "operation_ele": "subtraction_action_1",
+      "operand1_val": 36,
+      "operand2_val": 103,
+      "expected_sol": -67
+    }
+  },
+  "subtraction_boundary_01": {
+    "test_data": {
+      "operand1_ele": "subtraction_number_1",
+      "operand2_ele": "subtraction_number_2",
+      "result": "subtraction_difference",
+      "operation_ele": "subtraction_action_1",
+      "operand1_val": 9223372036854775807,
+      "operand2_val": 9223372036854775807,
+      "expected_sol": 0
+    }
+  },
+  "subtraction_boundary_02": {
+    "test_data": {
+      "operand1_ele": "subtraction_number_1",
+      "operand2_ele": "subtraction_number_2",
+      "result": "subtraction_difference",
+      "operation_ele": "subtraction_action_1",
+      "operand1_val": 9223372036854775807,
+      "operand2_val": 9223372036854775806,
+      "expected_sol": 1
+    }
+  },
+  "subtraction_boundary_03": {
+    "test_data": {
+      "operand1_ele": "subtraction_number_1",
+      "operand2_ele": "subtraction_number_2",
+      "result": "subtraction_difference",
+      "operation_ele": "subtraction_action_1",
+      "operand1_val": 9223372036854775807,
+      "operand2_val": 9223372036854775707,
+      "expected_sol": 100
+    }
+  },
+  "subtraction_boundary_04": {
+    "test_data": {
+      "operand1_ele": "subtraction_number_1",
+      "operand2_ele": "subtraction_number_2",
+      "result": "subtraction_difference",
+      "operation_ele": "subtraction_action_1",
+      "operand1_val": 9223372036854775807,
+      "operand2_val": 9223372036854774807,
+      "expected_sol": 1000
+    }
+  },
+  "subtraction_boundary_05": {
+    "test_data": {
+      "operand1_ele": "subtraction_number_1",
+      "operand2_ele": "subtraction_number_2",
+      "result": "subtraction_difference",
+      "operation_ele": "subtraction_action_1",
+      "operand1_val": 9223372036854775807,
+      "operand2_val": 9223372036854765807,
+      "expected_sol": 10000
+    }
+  },
+  "subtraction_boundary_06": {
+    "test_data": {
+      "operand1_ele": "subtraction_number_1",
+      "operand2_ele": "subtraction_number_2",
+      "result": "subtraction_difference",
+      "operation_ele": "subtraction_action_1",
+      "operand1_val": 9223372036854775807,
+      "operand2_val": 9223372036854675807,
+      "expected_sol": 100000
+    }
+  },
+  "subtraction_boundary_07": {
+    "test_data": {
+      "operand1_ele": "subtraction_number_1",
+      "operand2_ele": "subtraction_number_2",
+      "result": "subtraction_difference",
+      "operation_ele": "subtraction_action_1",
+      "operand1_val": 9223372036854775807,
+      "operand2_val": 9223372036853775807,
+      "expected_sol": 1000000
+    }
+  },
+  "addition_operand1_alpha": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": "a",
+      "operand2_val": 1,
+      "expected_sol": "NaN"
+    }
+  },
+  "addition_operand1_nonAlNum": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": "!",
+      "operand2_val": 2,
+      "expected_sol": "NaN"
+    }
+  },
+  "addition_operand2_alpha": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 3,
+      "operand2_val": "b",
+      "expected_sol": "NaN"
+    }
+  },
+  "addition_operand2_nonAlNum": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 4,
+      "operand2_val": "@",
+      "expected_sol": "NaN"
+    }
+  },
+  "addition_operands_alpha": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": "c",
+      "operand2_val": "d",
+      "expected_sol": "NaN"
+    }
+  },
+  "addition_operands_nonAlNum": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": "[",
+      "operand2_val": ")",
+      "expected_sol": "NaN"
+    }
+  },
+    "addition_operand1_even_01": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 2,
+      "operand2_val": 1,
+      "expected_sol": 3
+    }
+  },
+  "addition_operand1_even_02": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 2,
+      "operand2_val": 2,
+      "expected_sol": 4
+    }
+  },
+  "addition_operand1_even_03": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 2,
+      "operand2_val": 3,
+      "expected_sol": 5
+    }
+  },
+  "addition_operand2_even01": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 3,
+      "operand2_val": 4,
+      "expected_sol": 7
+    }
+  },
+  "addition_operand2_even02": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 4,
+      "operand2_val": 4,
+      "expected_sol": 8
+    }
+  },
+  "addition_operand2_even03": {
+    "test_data": {
+      "operand1_ele": "addition_number_1",
+      "operand2_ele": "addition_number_2",
+      "result": "addition_sum",
+      "operation_ele": "addition_action_1",
+      "operand1_val": 5,
+      "operand2_val": 4,
+      "expected_sol": 9
+    }
+  }
 }

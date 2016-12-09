@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5cebcd-b407-460f-b3d5-59cfda10995b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntegerCalcTest.py" afterPath="$PROJECT_DIR$/IntegerCalcTest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/one_operation.json" afterPath="$PROJECT_DIR$/data/one_operation.json" />
     </list>
@@ -17,7 +18,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TestEddyCalc$DDT_NoseTest.coverage" NAME="DDT:NoseTest Coverage Results" MODIFIED="1481234390117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/TestEddyCalc$DDT_NoseTest.coverage" NAME="DDT:NoseTest Coverage Results" MODIFIED="1481252543698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/TestEddyCalc$IntegerCalcTest.coverage" NAME="IntegerCalcTest Coverage Results" MODIFIED="1481004195224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -29,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IntegerCalcTest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IntegerCalcTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IntegerCalcTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -41,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tmp_working.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tmp_working.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/tmp_working.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+            <state relative-caret-position="309">
+              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -54,8 +55,18 @@
       <file leaf-file-name="one_operation.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/one_operation.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+            <state relative-caret-position="186">
+              <caret line="220" column="2" selection-start-line="220" selection-start-column="2" selection-end-line="220" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/data/data_two_operations.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <caret line="25" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -92,9 +103,9 @@
         <option value="$PROJECT_DIR$/data/data_working.json" />
         <option value="$PROJECT_DIR$/data/data_one_operation.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/data/one_operation.json" />
         <option value="$PROJECT_DIR$/data/tmp_working.json" />
         <option value="$PROJECT_DIR$/IntegerCalcTest.py" />
-        <option value="$PROJECT_DIR$/data/one_operation.json" />
       </list>
     </option>
   </component>
@@ -336,6 +347,9 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../new/nose-auto" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -608,6 +622,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7a5cebcd-b407-460f-b3d5-59cfda10995b" name="Default" comment="" />
@@ -619,34 +636,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DDT_NoseTest - 2016.12.08 at 13h 15m 51s.xml">
+    <history-entry file="DDT_NoseTest - 2016.12.08 at 16h 29m 48s.xml">
       <configuration name="DDT:NoseTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="DDT_NoseTest - 2016.12.08 at 13h 16m 24s.xml">
+    <history-entry file="DDT_NoseTest - 2016.12.08 at 16h 57m 57s.xml">
       <configuration name="DDT:NoseTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="DDT_NoseTest - 2016.12.08 at 13h 18m 46s.xml">
+    <history-entry file="DDT_NoseTest - 2016.12.08 at 17h 11m 09s.xml">
       <configuration name="DDT:NoseTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="DDT_NoseTest - 2016.12.08 at 13h 19m 34s.xml">
+    <history-entry file="DDT_NoseTest - 2016.12.08 at 17h 46m 15s.xml">
       <configuration name="DDT:NoseTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="DDT_NoseTest - 2016.12.08 at 13h 20m 57s.xml">
+    <history-entry file="DDT_NoseTest - 2016.12.08 at 17h 58m 01s.xml">
       <configuration name="DDT:NoseTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="DDT_NoseTest - 2016.12.08 at 13h 22m 32s.xml">
+    <history-entry file="DDT_NoseTest - 2016.12.08 at 18h 02m 09s.xml">
       <configuration name="DDT:NoseTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="DDT_NoseTest - 2016.12.08 at 13h 24m 43s.xml">
+    <history-entry file="DDT_NoseTest - 2016.12.08 at 18h 06m 12s.xml">
       <configuration name="DDT:NoseTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="DDT_NoseTest - 2016.12.08 at 13h 25m 41s.xml">
+    <history-entry file="DDT_NoseTest - 2016.12.08 at 18h 11m 41s.xml">
       <configuration name="DDT:NoseTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="DDT_NoseTest - 2016.12.08 at 13h 40m 08s.xml">
+    <history-entry file="DDT_NoseTest - 2016.12.08 at 18h 29m 20s.xml">
       <configuration name="DDT:NoseTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="DDT_NoseTest - 2016.12.08 at 14h 00m 17s.xml">
+    <history-entry file="DDT_NoseTest - 2016.12.08 at 19h 02m 40s.xml">
       <configuration name="DDT:NoseTest" configurationId="tests" />
     </history-entry>
   </component>
@@ -659,9 +676,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22945206" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33789954" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -693,6 +710,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -744,10 +769,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/data_working.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/data_two_operations.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <caret line="25" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -760,37 +793,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data_working.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IntegerCalcTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/one_operation.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+        <state relative-caret-position="186">
+          <caret line="220" column="2" selection-start-line="220" selection-start-column="2" selection-end-line="220" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/tmp_working.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+        <state relative-caret-position="309">
+          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegerCalcTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
